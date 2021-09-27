@@ -1,8 +1,9 @@
 # MTDsites
 Sequence-based protein binding site prediction through multiple-task deep neural networks
-![MTDsites_framework](https://github.com/biomed-AI/MTDsite/blob/master/IMG/MTDsites_framework.png)
 
 This is the standalone code for our paper: [To improve the predictions of binding residues with DNA, RNA, carbohydrate, and peptide via multiple-task deep neural networks](https://https://www.biorxiv.org/content/10.1101/2020.02.11.943571v1)
+
+![MTDsites_framework](https://github.com/biomed-AI/MTDsite/blob/master/IMG/MTDsites_framework.png)
 
 ## Predict protein binding sites using the pre-trained MTDsites model
 
