@@ -11,7 +11,7 @@ This is the standalone code for our paper: [To improve the predictions of bindin
 
 **This is a demo for the prediction of the sequence `5fez_A` with its preprocessed feature files. You can directly type `$ sh run.sh 5fez_A`, and then the result file `result.data` will be generated in the current directory.**
 
-If you want to predict your own protein sequence using our pre-trained model, please refer to the steps below.
+If you want to predict your own protein sequence using our pre-trained model, please refer to the steps below:
 
 ### Step 1: Prepare your sequence fasta file
 We follow the common fasta file format that starts with `>{protein sequence name}`, and then the protein sequence is placed in the next line. This is the fasta of our demo `5fez_A`:
@@ -62,7 +62,7 @@ The code has been tested under Python 3.8.5, with the following packages install
 
 ## Datasets in our paper
 
-See the four directories under `./Dataset` with the binding site data for DNA, RNA, carbohydrate, and peptide. In each directory, the files include training and tested lists, and the curated features. The files explain themselves well.
+See the four directories under `./Dataset` with the binding site data for DNA, RNA, carbohydrate, and peptide. In each directory, the files include training and tested lists, as well as the curated features. The files explain themselves well.
 
 Reference to collectively use the four datasets:
 
